@@ -1,0 +1,24 @@
+{
+  "emplyoees": [
+    {
+      "employeeid": 1,
+      "firstname": "Tamilselvan",
+      "lastname": "C",
+      "email": "tamil123@gmail.com",
+      "job": "web developer",
+      "img": "",
+      "phone": 12345,
+      "dateofjoining": "12-12-2023"
+    },
+    {
+      "employeeid": 2,
+      "firstname": "Jayaprasath",
+      "lastname": "S",
+      "email": "jp123@gmail.com",
+      "job": "full stack developer",
+      "img": "",
+      "phone": 1234556,
+      "dateofjoining": "11-11-2023"
+    }
+  ]
+}
