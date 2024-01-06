@@ -1,19 +1,19 @@
 import React from "react";
 
 const Card = ({ empData, handleEdit, handleReRender }) => {
-  const { firstname, lastname, job, email, img } = empData;
+  const { fname, lname, jobpositon, email, img } = empData;
   return (
     <>
       <div>
-        <img src={img} alt="firstname"></img>
+        <img src={img} alt={fname}></img>
       </div>
       <div>
         <h2>
-          {firstname} {lastname}
+          {fname} {lname}
         </h2>
         <p>{email}</p>
       </div>
-      <div>{job}</div>
+      <div>{jobpositon}</div>
     </>
   );
 };
