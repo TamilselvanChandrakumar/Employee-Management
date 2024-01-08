@@ -6,30 +6,40 @@
       "jobpisition": "front end",
       "id": 5,
       "lname": "C",
-      "email": "abc@mas",
+      "email": "tamil@gmail.com",
       "phone": "12345678",
       "dateofjoining": "2024-01-02",
-      "jobposition": "front end"
+      "jobposition": "mern stack "
     },
     {
-      "fname": "Nandha kuamr",
-      "lname": "K",
+      "fname": "vishva",
+      "lname": "Ganapathi",
       "id": 6,
-      "email": "abc@mas",
-      "jobposition": "front end",
-      "img": "image ",
+      "email": "vishva@gmailcom",
+      "jobposition": "software testing",
+      "img": "image c",
       "phone": "12345678",
-      "dateofjoining": "2024-01-02"
+      "dateofjoining": "2024-01-03"
     },
     {
-      "fname": "tamilselvan",
-      "lname": "c",
+      "fname": "jaya",
+      "lname": "Prasath",
+      "img": "image ",
+      "email": "jaya@gmail.com",
+      "phone": "12345678",
+      "jobposition": "full stack developer",
+      "dateofjoining": "2024-01-19",
+      "id": 8
+    },
+    {
+      "fname": "Nandha",
+      "lname": "kumar",
       "img": "image ",
       "email": "abc@mas",
       "phone": "12345678",
-      "jobposition": "front end",
-      "dateofjoining": "2024-01-03",
-      "id": 7
+      "jobposition": "meson",
+      "dateofjoining": "2024-01-11",
+      "id": 9
     }
   ]
 }
