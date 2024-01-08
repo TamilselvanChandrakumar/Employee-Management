@@ -1,0 +1,32 @@
+.leftNav {
+  width: 20rem;
+  height: 100vh;
+  border: 1px solid black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+}
+.employeeDetails {
+  margin: 1rem;
+  margin-top: 4rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 20px; */
+}
+
+.employeeDetails > image {
+  background-color: brown;
+  width: 17rem;
+  height: 17rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.employeeDetails > h2 {
+  font-weight: 500;
+}
+.employeeDetails > h1 {
+  margin-bottom: 3rem;
+}

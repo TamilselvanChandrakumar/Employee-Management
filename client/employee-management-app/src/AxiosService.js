@@ -25,7 +25,7 @@ export const axiosDELETE = (url) => {
   });
 };
 export const axiosPUT = (url, data) => {
-  return axios.put(`${baseURL}${url}`, data, {
+  return axios.patch(`${baseURL}${url}`, data, {
     headers: {
       "Content-Type": "application/json",
     },

@@ -1,34 +1,35 @@
 {
-  "emplyoees": [
+  "employees": [
     {
-      "id": 1,
-      "fname": "Tamilselvan",
+      "fname": "tamilselvan",
+      "img": "image c",
+      "jobpisition": "front end",
+      "id": 5,
       "lname": "C",
-      "email": "tamil123@gmail.com",
-      "job": "web developer",
-      "img": "",
-      "phone": 12345,
-      "dateofjoining": "12-12-2023"
-    },
-    {
-      "id": 2,
-      "fname": "Jayaprasath",
-      "lname": "S",
-      "email": "jp123@gmail.com",
-      "jobposition": "full stack developer",
-      "img": "",
-      "phone": 1234556,
-      "dateofjoining": "11-11-2023"
-    },
-    {
-      "fname": "Nandha",
-      "lname": "kuamr",
-      "img": "nandha",
-      "email": "nadha123@gmail.com",
+      "email": "abc@mas",
       "phone": "12345678",
-      "jobposition": "meson",
-      "dateofjoining": "2024-01-09",
-      "id": 3
+      "dateofjoining": "2024-01-02",
+      "jobposition": "front end"
+    },
+    {
+      "fname": "Nandha kuamr",
+      "lname": "K",
+      "id": 6,
+      "email": "abc@mas",
+      "jobposition": "front end",
+      "img": "image ",
+      "phone": "12345678",
+      "dateofjoining": "2024-01-02"
+    },
+    {
+      "fname": "tamilselvan",
+      "lname": "c",
+      "img": "image ",
+      "email": "abc@mas",
+      "phone": "12345678",
+      "jobposition": "front end",
+      "dateofjoining": "2024-01-03",
+      "id": 7
     }
   ]
 }

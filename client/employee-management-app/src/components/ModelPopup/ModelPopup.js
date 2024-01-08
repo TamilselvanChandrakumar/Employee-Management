@@ -8,8 +8,8 @@ const ModelPopup = ({ showModal, setShowModal }) => {
   const createEmployee = async (values) => {
     setIsLoading(true);
     try {
-      const res = await axiosPOST("/emplyoees", values);
-      console.log(res);
+      const res = await axiosPOST("/employees", values);
+      console.log(res.data);
       setIsLoading(false);
       setShowModal(false);
     } catch (err) {
@@ -41,75 +41,75 @@ const ModelPopup = ({ showModal, setShowModal }) => {
         },
       }}
     >
-      <form onSubmit={formik.handleSubmit}>
+      <form action="" onSubmit={formik.handleSubmit}>
         <div>
           <label htmlFor="fname">Firstname</label>
           <input
-            id="fname"
-            value={formik.values.fname}
-            onChange={formik.handleChange}
             type="text"
+            id="fname"
             name="fname"
+            onChange={formik.handleChange}
+            values={formik.values.fname}
           ></input>
         </div>
         <div>
           <label htmlFor="lname">Lastname</label>
           <input
-            id="lname"
-            value={formik.values.lname}
-            onChange={formik.handleChange}
             type="text"
+            id="lname"
             name="lname"
+            onChange={formik.handleChange}
+            values={formik.values.lname}
           ></input>
         </div>
         <div>
           <label htmlFor="img">Img</label>
           <input
-            id="img"
-            value={formik.values.img}
-            onChange={formik.handleChange}
             type="text"
+            id="img"
             name="img"
+            onChange={formik.handleChange}
+            values={formik.values.img}
           ></input>
         </div>
         <div>
           <label htmlFor="email">Enter Mail</label>
           <input
-            id="email"
-            value={formik.values.email}
-            onChange={formik.handleChange}
             type="email"
+            id="email"
             name="email"
+            onChange={formik.handleChange}
+            values={formik.values.email}
           ></input>
         </div>
         <div>
           <label htmlFor="phone">Phone</label>
           <input
             id="phone"
-            value={formik.values.phone}
-            onChange={formik.handleChange}
             type="text"
             name="phone"
+            onChange={formik.handleChange}
+            values={formik.values.phone}
           ></input>
         </div>
         <div>
           <label htmlFor="jobposition">Job position</label>
           <input
-            id="jobposition"
-            value={formik.values.jobposition}
-            onChange={formik.handleChange}
-            name="jobposition"
             type="text"
+            id="jobposition"
+            name="jobposition"
+            onChange={formik.handleChange}
+            values={formik.values.jobposition}
           ></input>
         </div>
         <div>
           <label htmlFor="dateofjoining">Date of joining</label>
           <input
-            id="dateofjoining"
-            value={formik.values.dateofjoining}
-            onChange={formik.handleChange}
             type="date"
+            id="dateofjoining"
             name="dateofjoining"
+            onChange={formik.handleChange}
+            values={formik.values.dateofjoining}
           ></input>
         </div>
         <div>
